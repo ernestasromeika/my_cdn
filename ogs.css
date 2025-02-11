@@ -10,22 +10,31 @@ h1 {
 }
 
 h2 {
- color:#228B22;
+ color:#E18737;
 }
 
 h3 {
-   color: #228B22;
+   color: #E18737;
   }
 
 h4{
-   color:  #228B22 ;
+   color:  #E18737 ;
 }
 
 
 .ratings-container{
-	background-color:#2D1605;
-	 border:solid;
-	 border-color: #E18737;
+	background-color: #2D1605;
+	border:solid;
+	border-color: #E18737;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.avatar-container {
+	border: 3px solid #E8AF20; 
+	background: black; 
+	border-radius:15px;
+	/*background: #6F260A;*/
 }
 
 .rating-entry{
@@ -84,7 +93,4 @@ h4{
 
 .sortable {
   color: #228B22;
-}
-.avatar-container {
-  background: #6F260A;
 }
