@@ -6,7 +6,7 @@
   background-image: url('https://i.imgur.com/OIOug7m.png');
 }
 h1 {
- color:#FF0000;
+ color:#F3CB77;
 }
 
 h2 {
@@ -23,17 +23,17 @@ h4{
 
 
 .ratings-container{
-	background-color:#FFB6C1;
+	background-color:#2D1605;
 	 border:solid;
-	 border-color: #8f00ff;
+	 border-color: #E18737;
 }
 
 .rating-entry{
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .avatar-container .Player-username {
-    color: #FF0000;
+    color: #F3CB77;
 }
 
 .active-games{
@@ -43,43 +43,43 @@ h4{
 }
 
 .move-number{
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .game-name{
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .Clock {
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .size {
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .Player-username {
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .Player-rank {
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .game_name {
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .board_size {
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .date {
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .user_info {
-  color: #FF0000;
+  color: #F3CB77;
 }
 
 .sortable {
