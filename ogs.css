@@ -1,26 +1,17 @@
 .ratings-row {
-  display:none !important;
+	display:none !important;
 }
 .container {
-  max-width: none !important;
-  background-image: url('https://i.imgur.com/rVllzRB.png');
+	max-width: none !important;
+	background-image: url('https://i.imgur.com/rVllzRB.png');
 }
 h1 {
- color:#F3CB77;
+	color:#F3CB77;	
 }
 
-h2 {
- color:#E18737;
+h2, h3, h4 {
+	color:#E18737;
 }
-
-h3 {
-   color: #E18737;
-  }
-
-h4{
-   color:  #E18737 ;
-}
-
 
 .ratings-container{
 	background-color: #2D1605;
@@ -37,60 +28,23 @@ h4{
 	/*background: #6F260A;*/
 }
 
-.rating-entry{
-  color: #F3CB77;
-}
-
-.avatar-container .Player-username {
-    color: #F3CB77;
-}
-
 .active-games{
 	background-color:#FFB6C1;
 	 border:solid;
 	 border-color: #8f00ff;
 }
 
-.move-number{
-  color: #F3CB77;
-}
-
-.game-name{
-  color: #F3CB77;
-}
-
-.Clock {
-  color: #F3CB77;
-}
-
-.size {
-  color: #F3CB77;
-}
-
-.Player-username {
-  color: #F3CB77;
-}
-
-.Player-rank {
-  color: #F3CB77;
-}
-
-.game_name {
-  color: #F3CB77;
-}
-
-.board_size {
-  color: #F3CB77;
-}
-
-.date {
-  color: #F3CB77;
-}
-
-.user_info {
-  color: #F3CB77;
+.user_info, .date, .board_size, .game_name, .Player-rank, .Player-username, .size, .Clock, .game-name, .move-number, .avatar-container .Player-username, .rating-entry {
+	color: #F3CB77;
 }
 
 .sortable {
-  color: #228B22;
+	color: #228B22;
+}
+
+#default-variant-container > div.User.container > div.row > div.col-sm-4 > div:nth-child(1) > div {
+	height: 550px; 
+	background-image:url('https://i.imgur.com/mySCZOg.gif'); 
+	background-repeat:repeat-y;
+	background-position:right;
 }
