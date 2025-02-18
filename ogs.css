@@ -50,6 +50,13 @@ h2, h3, h4 {
 #default-variant-container > div.User.container > div.row > div.col-sm-4 > div:nth-child(1) > div {
 	height: 550px; 
 	background-image:url('https://i.imgur.com/VQXIgRP.jpeg'); 
+	background-position: top;
 	background-repeat:repeat-y;
 	background-position:right;
+}
+#default-variant-container > div.User.container > div.row > div.col-sm-4 > div:nth-child(1) > div > .trophies {
+	display: none;
+}
+#default-variant-container > div.User.container > div.row > div.col-sm-4 > div:nth-child(1) > div > h3 {
+	display: none;
 }
