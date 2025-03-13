@@ -7,10 +7,12 @@
 }
 h1 {
 	color:#F3CB77;	
+	text-shadow: 3px 3px 5px #2f0f08;
 }
 
 h2, h3, h4 {
 	color:#E18737;
+	text-shadow: 2px 2px 3px #2f0f08;
 }
 
 .ratings-container{
