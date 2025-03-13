@@ -14,10 +14,10 @@ h2, h3, h4 {
 }
 
 .ratings-container{
-	background-color: #2D1605;
+	background-color: #0e270b;
 	border:solid;
 	border-color: #E18737;
-	border-radius: 15px;
+	border-radius: 10px;
 	padding: 5px;
 }
 .about-container{
@@ -29,7 +29,7 @@ h2, h3, h4 {
 .avatar-container {
 	border: 3px solid #E8AF20; 
 	background: black; 
-	border-radius:15px;
+	border-radius: 10px;
 	/*background: #6F260A;*/
 }
 
@@ -53,6 +53,16 @@ h2, h3, h4 {
 #app-content > div > div.row > div.col-sm-8 {
 	margin: auto;
 }
+
+.avatar-and-ratings-row {
+ 	justify-content: center;
+}
+
+#app-content > div > div:nth-child(1) > div > div > div.avatar-container
+{
+	margin-right: 20px;
+}
+
 #app-content > div > div.row > div.col-sm-4 > div:nth-child(1) > div
 {
 	/*background-image:url('https://i.imgur.com/VQXIgRP.jpeg'); 
