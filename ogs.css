@@ -46,13 +46,20 @@ h2, h3, h4 {
 .sortable {
 	color: #228B22;
 }
+#app-content > div > div.row > div.col-sm-4 {
+	display: none;
+}
 
-#default-variant-container > div.User.container > div.row > div.col-sm-4 > div:nth-child(1) > div {
-	background-image:url('https://i.imgur.com/VQXIgRP.jpeg'); 
+#app-content > div > div.row > div.col-sm-8 {
+	margin: auto;
+}
+#app-content > div > div.row > div.col-sm-4 > div:nth-child(1) > div
+{
+	/*background-image:url('https://i.imgur.com/VQXIgRP.jpeg'); 
 	background-position: top;
 	background-repeat: repeat-y;
 	background-position: right;
-	min-height: 705px;
+	min-height: 705px;*/
 }
 #default-variant-container > div.User.container > div.row > div.col-sm-4 > div:nth-child(1) > div > .trophies {
 	display: none;
