@@ -16,12 +16,16 @@ h2, h3, h4 {
 }
 
 .ratings-container{
-	background-color: #0e270b;
+	background-color: #a41d1a;
 	border:solid;
 	border-color: #E18737;
 	border-radius: 10px;
 	padding: 5px;
 }
+.body.accessible .User .ratings-grid .rating-entry.unset, body.dark .User .ratings-grid .rating-entry.unset {
+	color: #2d1605 !important;
+}
+
 .about-container{
 	scrollbar-color: red orange;
 	scrollbar-width: thin;
@@ -57,7 +61,7 @@ h2, h3, h4 {
 }
 
 .avatar-and-ratings-row {
- 	justify-content: center;
+ 	justify-content: center !important;
 }
 
 #app-content > div > div:nth-child(1) > div > div > div.avatar-container
