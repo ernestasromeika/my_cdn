@@ -41,9 +41,15 @@ h2, h3, h4 {
 }
 
 .active-games{
-	background-color: #E18737;
+	background-color: #6F260A;
 	border: solid;
 	border-color: #E18737;
+	text-align: center;
+}
+
+active-games > .small.board {
+	background-color: #E18737 !important;
+	border: none !important;
 }
 
 .user_info, .date, .board_size, .game_name, .Player-rank, .Player-username, .size, .Clock, .game-name, .move-number, .avatar-container .Player-username, .rating-entry {
