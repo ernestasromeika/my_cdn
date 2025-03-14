@@ -30,6 +30,7 @@ h2, h3, h4 {
 	scrollbar-color: red orange;
 	scrollbar-width: thin;
 	overflow: scroll;
+	max-height: 2300px;
 }
 
 .avatar-container {
@@ -40,9 +41,9 @@ h2, h3, h4 {
 }
 
 .active-games{
-	background-color:#FFB6C1;
-	 border:solid;
-	 border-color: #8f00ff;
+	background-color: #E18737;
+	border: solid;
+	border-color: #E18737;
 }
 
 .user_info, .date, .board_size, .game_name, .Player-rank, .Player-username, .size, .Clock, .game-name, .move-number, .avatar-container .Player-username, .rating-entry {
